@@ -117,7 +117,6 @@ struct RecentSearchDetailView: View {
                 } else {
                     VStack(alignment: .leading) {
                         Text("공약을 불러올 수 없습니다.")
-                        Text("(종료된 선거는 당선인만 공약을 조회할 수 있습니다.)")
                         Divider()
                     }
                 }
